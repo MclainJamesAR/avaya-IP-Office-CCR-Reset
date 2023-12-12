@@ -1,5 +1,6 @@
-# avaya-IP-Office-CCR-Reset
-.BAT file to Stop CCR Services, Clear the System Logs of Errors and Restar the services
+::# avaya-IP-Office-CCR-Reset
+::.BAT file to Stop CCR Services, Clear the System Logs of Errors and Restar the services
+::set as timed task daily after hours. Turn of if tracking a issue
 Echo off
 ::Created by James McLain
 ::Cablelink Solutons 
@@ -33,6 +34,7 @@ Echo Clear the System Logs of CCR Errors
 ::This batch requires you to download the sysinternals (microsoft) utility psloglist
 ::Try http://technet.microsoft.com/en-us/sysinternals or google psloglist 
 :: or https://learn.microsoft.com/en-us/sysinternals/downloads/psloglist
+::save the PSTOOLS in C:\Program Files (x86)\Avaya\IP Office\PSTools
  
 ::Tested on a local machine using psloglist.exe version 2.71 on Windows 7 x64 Home Premium
 ::Use the ping command to wait from XP onward, timeout works for server 2k3
